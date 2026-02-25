@@ -1,0 +1,26 @@
+/* Brand Colors */
+:root {
+  --js-blue: #0B1F33;
+  --js-accent: #38BDF8;
+}
+
+/* Header */
+.navbar {
+  background-color: var(--js-blue);
+}
+
+/* Titles */
+h1, h2, h3 {
+  color: var(--js-blue);
+}
+
+/* Links */
+a {
+  color: var(--js-accent);
+}
+
+/* Code blocks */
+pre code {
+  background-color: #0F172A;
+  color: #F8FAFC;
+}

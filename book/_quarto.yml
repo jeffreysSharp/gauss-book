@@ -1,0 +1,25 @@
+project:
+  type: book
+
+book:
+  title: "Formação Definitiva do Arquiteto de Software .NET"
+  subtitle: "Construindo Sistemas Financeiros de Alta Performance"
+  author: "Jeffreys Sharp"
+  date: today
+
+  chapters:
+    - index.qmd
+    - chapters/01-introducao.qmd
+    - chapters/02-fundamentos.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+
+  pdf:
+    documentclass: book
+    geometry: "paperwidth=6in,paperheight=9in,margin=0in"
+    include-in-header: preamble.tex
+
+  epub: default

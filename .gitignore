@@ -1,0 +1,20 @@
+# Quarto build
+_book/
+.quarto/
+
+# LaTeX / PDF temp
+*.aux
+*.log
+*.out
+*.toc
+*.tex
+
+# OS
+Thumbs.db
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Node (se aparecer no futuro)
+node_modules/

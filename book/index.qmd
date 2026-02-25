@@ -1,11 +1,38 @@
 ---
 title: "Prefácio"
 numbered: false
-toc: false
 ---
 
-Este livro é resultado de mais de duas décadas de experiência prática no desenvolvimento de sistemas críticos.
+Este livro não nasceu de uma ideia repentina, nem de uma tendência de mercado.
 
-Ele não foi escrito para impressionar, mas para formar.
+Ele é resultado de mais de duas décadas de experiência prática no desenvolvimento de sistemas reais, construídos sob pressão, com impacto financeiro, regulatório e operacional.
 
-Ao longo destas páginas, compartilho não apenas técnicas, mas decisões, erros, aprendizados e métodos que moldaram minha trajetória como arquiteto de software.
+Ao longo dessa trajetória, participei da criação, manutenção e evolução de plataformas que precisavam funcionar todos os dias, sem margem para improvisação. Sistemas em que falhas não significavam apenas erros técnicos, mas prejuízos concretos, riscos jurídicos e perda de confiança.
+
+Nesse caminho, aprendi que dominar uma linguagem, um framework ou uma ferramenta nunca foi suficiente.
+
+O que diferencia profissionais comuns de engenheiros e arquitetos sólidos é a capacidade de compreender sistemas como um todo, antecipar problemas, tomar decisões conscientes e sustentar soluções ao longo do tempo.
+
+Este livro foi escrito para desenvolver essa forma de pensar.
+
+Ele não foi concebido como um manual rápido, nem como uma coletânea de tutoriais. Seu objetivo é formar profissionais capazes de raciocinar, projetar, implementar, validar e evoluir sistemas complexos com responsabilidade.
+
+Aqui, você encontrará fundamentos, práticas, exemplos reais, erros, refatorações, decisões difíceis e compromissos técnicos. Nada foi filtrado para parecer mais simples do que realmente é.
+
+A proposta é mostrar a engenharia de software como ela acontece no mundo real.
+
+Ao longo destas páginas, compartilho não apenas técnicas, mas também aprendizados construídos com tempo, disciplina, estudo contínuo e experiência em ambientes críticos.
+
+Este material foi pensado para acompanhar você por muitos anos.
+
+Não como algo a ser consumido rapidamente, mas como uma referência para consulta, revisão e aprofundamento constante.
+
+Se você busca atalhos, soluções prontas ou fórmulas mágicas, este provavelmente não é o livro ideal.
+
+Mas se o seu objetivo é desenvolver maturidade técnica, visão sistêmica e autonomia profissional, espero que esta obra se torne uma companheira de jornada.
+
+Que este livro contribua para a sua formação, para a qualidade do seu trabalho e para o impacto positivo dos sistemas que você irá construir.
+
+Boa leitura.
+
+Jeferson Almeida

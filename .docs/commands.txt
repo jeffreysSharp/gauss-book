@@ -1,0 +1,5 @@
+
+rmdir /s /q _book
+rmdir /s /q .quarto
+
+quarto render --to pdf

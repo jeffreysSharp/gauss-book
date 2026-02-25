@@ -9,17 +9,35 @@ book:
 
   chapters:
     - index.qmd
-    - chapters/01-introducao.qmd
-    - chapters/02-fundamentos.qmd
+    - chapters/part1-vision/01-introducao.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
+    toc: true
+    toc-depth: 3
 
   pdf:
     documentclass: book
-    geometry: "paperwidth=6in,paperheight=9in,margin=0in"
-    include-in-header: preamble.tex
+    titlepage: false
+    toc: true
+    toc-depth: 3
+    lof: true
+    lot: true
 
-  epub: default
+    # livro 6x9
+    geometry:
+      - paperwidth=6in
+      - paperheight=9in
+      - top=2.2cm
+      - bottom=2.2cm
+      - inner=2.5cm
+      - outer=2.0cm
+
+    include-in-header: preamble.tex
+    include-before-body: cover.tex
+
+  epub:
+    toc: true
+    toc-depth: 3

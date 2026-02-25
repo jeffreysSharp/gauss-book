@@ -14,6 +14,7 @@ book:
   date: today
   chapters:
     - index.qmd
+    - chapters/frontmatter/about-the-author.qmd
     - chapters/part1-vision/01-purpose.qmd
 format:
   html:

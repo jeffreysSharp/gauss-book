@@ -1,0 +1,46 @@
+# Sobre o Autor
+
+Jeferson Almeida é desenvolvedor de software e arquiteto de sistemas com mais de duas décadas de experiência no desenvolvimento de aplicações web escaláveis, performáticas e orientadas a negócios críticos.
+
+Especialista em .NET, C#, arquitetura de software e sistemas distribuídos, atua há mais de dez anos no setor financeiro e de investimentos, participando da construção e evolução de plataformas que operam com alto volume de dados, elevada disponibilidade e rigorosos requisitos de segurança, confiabilidade e auditoria.
+
+Ao longo de sua carreira, trabalhou em projetos para grandes empresas e marcas, desenvolvendo soluções em diferentes contextos — desde sistemas legados até arquiteturas modernas em nuvem — sempre orientado por princípios como SOLID, Clean Code, Domain-Driven Design (DDD) e engenharia de software sustentável.
+
+Sua formação, no entanto, não seguiu caminhos tradicionais.
+
+A trajetória de Jeferson na tecnologia teve início em 2003, motivada por uma curiosidade simples: aprender a inserir uma imagem em um blog. Na época, trabalhava como assistente administrativo em um sindicato, logo após deixar a profissão de moto-boy, decidido a buscar uma carreira com maiores perspectivas de crescimento profissional.
+
+Sem acesso facilitado a cursos ou trilhas estruturadas de aprendizado, iniciou seus estudos de forma autodidata, explorando fóruns, apostilas e comunidades técnicas, aprendendo principalmente por experimentação e tentativa e erro.
+
+Durante mais de um ano, manteve uma rotina intensa: trabalhava durante o dia e dedicava praticamente todas as noites ao estudo de programação, design e desenvolvimento web. Utilizava materiais acadêmicos da Unicamp, conteúdos especializados e comunidades técnicas como o iMasters, frequentemente estudando até a madrugada.
+
+Nesse período, desenvolveu seus primeiros projetos utilizando HTML e CSS no Bloco de Notas, aprofundando-se progressivamente em tecnologias mais avançadas e buscando compreender não apenas *como implementar*, mas *por que as soluções funcionavam*.
+
+Em 2005, conquistou sua primeira oportunidade formal como web designer na empresa GuiaMais, onde rapidamente passou a atuar em projetos de maior complexidade, desenvolvendo sistemas utilizando ASP Clássico e consolidando sua base técnica.
+
+Posteriormente, atuou por quatro anos em projetos ligados às agências do grupo Roberto Justus, experiência que contribuiu significativamente para seu amadurecimento profissional, integrando design, tecnologia e visão de negócios.
+
+Nos anos seguintes, construiu uma carreira sólida no desenvolvimento de soluções digitais, acumulando experiência em backend, frontend, bancos de dados, integração de sistemas, mensageria, computação em nuvem e automação de processos.
+
+Também vivenciou diferentes fases profissionais e financeiras, aprendendo que maturidade técnica e profissional vai além de resultados imediatos, exigindo responsabilidade, planejamento e visão de longo prazo.
+
+Na última década, concentrou sua atuação no mercado financeiro, participando de projetos de crédito, investimentos e plataformas transacionais reguladas, aprofundando seu domínio em arquitetura distribuída, performance, segurança e observabilidade.
+
+Atualmente, possui experiência prática em tecnologias e ecossistemas como:
+
+- C#, .NET, ASP.NET Core, Entity Framework Core e Dapper  
+- APIs REST, arquitetura orientada a serviços e BFF  
+- Angular, React, TypeScript e aplicações SPA  
+- SQL Server, Oracle, MySQL, MongoDB e Redis  
+- Apache Kafka, RabbitMQ e sistemas de mensageria  
+- Azure, CI/CD, automação e monitoramento  
+
+Mais do que dominar ferramentas, Jeferson dedica-se à formação de profissionais conscientes, críticos e tecnicamente responsáveis. Acredita que engenharia de software não se resume à escrita de código, mas envolve método, ética, disciplina e compromisso contínuo com qualidade e sustentabilidade técnica.
+
+Esta obra reflete sua própria trajetória: construída sem atalhos, baseada em fundamentos sólidos, aprendizado contínuo e aplicação prática em ambientes reais.
+
+O objetivo deste livro é compartilhar não apenas conhecimento técnico, mas também a mentalidade necessária para construir sistemas duradouros, confiáveis e relevantes em um mercado cada vez mais exigente.
+
+Mais informações sobre sua trajetória profissional podem ser encontradas em:
+
+https://www.linkedin.com/in/jeffreys-sharp/

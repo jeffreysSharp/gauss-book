@@ -7,7 +7,6 @@ _book/
 *.log
 *.out
 *.toc
-*.tex
 
 # OS
 Thumbs.db

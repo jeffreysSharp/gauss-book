@@ -1,0 +1,19 @@
+% preamble.tex
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{hyperref}
+\usepackage{bookmark}
+\usepackage{microtype}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt}
+
+% 1) Coloca a capa como a PRIMEIRA coisa do PDF
+\AtBeginDocument{%
+  \begingroup
+  \input{cover.tex}
+  \endgroup
+}
+
+% 2) Remove a página automática de título/autor/data
+\renewcommand{\maketitle}{}

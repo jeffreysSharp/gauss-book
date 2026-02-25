@@ -1,6 +1,11 @@
 ---
 title: "Prefácio"
-subtitle: ""
-author: ""
-date: ""
+numbered: false
+toc: false
 ---
+
+Este livro é resultado de mais de duas décadas de experiência prática no desenvolvimento de sistemas críticos.
+
+Ele não foi escrito para impressionar, mas para formar.
+
+Ao longo destas páginas, compartilho não apenas técnicas, mas decisões, erros, aprendizados e métodos que moldaram minha trajetória como arquiteto de software.

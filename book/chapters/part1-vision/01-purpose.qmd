@@ -1,0 +1,78 @@
+# Capítulo 1 — Propósito e Visão da Obra
+
+## O paradoxo da formação em software
+
+A área de desenvolvimento de software vive, há décadas, um paradoxo. Nunca houve tanto conteúdo disponível, tantas documentações, cursos, vídeos e tutoriais. Ao mesmo tempo, nunca foi tão difícil formar profissionais realmente preparados para construir sistemas complexos, críticos e de alta responsabilidade.
+
+Grande parte do material existente ensina a “fazer funcionar”, mas não ensina a “fazer bem”. Ensina a escrever código, mas não a projetar sistemas. Ensina frameworks, mas não ensina engenharia. Ensina ferramentas, mas não ensina pensamento arquitetural.
+
+O resultado é um mercado repleto de aplicações frágeis, difíceis de manter, com baixa performance, alta dependência de pessoas específicas e grande risco operacional — especialmente em setores sensíveis, como o financeiro, o bancário, o de investimentos e o de crédito.
+
+## Fazer funcionar não é fazer bem
+
+Em muitos contextos, “funcionar” é tratado como sinônimo de “estar pronto”. No entanto, em sistemas críticos, essa mentalidade representa um risco.
+
+Aplicações que apenas funcionam tendem a apresentar problemas de manutenção, escalabilidade, confiabilidade e segurança. Ao longo do tempo, tornam-se passivos técnicos difíceis de sustentar.
+
+Esta obra nasce como resposta direta a esse cenário.
+
+## Por que esta obra existe
+
+O propósito deste livro não é formar apenas programadores, nem apenas especialistas em uma linguagem ou tecnologia específica.
+
+Seu objetivo é formar arquitetos de software completos, capazes de compreender profundamente:
+
+- A computação
+- A plataforma .NET
+- A linguagem C#
+- Sistemas distribuídos
+- Persistência de dados
+- Computação em nuvem
+- Observabilidade
+- Segurança
+- A relação entre todas essas camadas
+
+Ao longo deste livro, o leitor não aprenderá apenas “o que usar”, mas “por que usar”, “quando usar” e “quando não usar”.
+
+Cada conceito é contextualizado em cenários reais de mercado, especialmente no desenvolvimento de sistemas financeiros de alta volumetria, alta disponibilidade e alto impacto.
+
+## Formação de arquitetos completos
+
+Formar um arquiteto de software exige mais do que domínio técnico.
+
+Exige capacidade de análise, visão sistêmica, compreensão de impactos e responsabilidade sobre decisões.
+
+O leitor acompanhará, capítulo a capítulo, a construção progressiva de um sistema complexo, observando não apenas o código final, mas todo o processo: decisões, refatorações, correções, melhorias e compromissos técnicos.
+
+Este livro foi concebido como uma obra de referência, para ser estudada, consultada, revisitada e aplicada ao longo de anos.
+
+## Responsabilidade técnica
+
+Mais do que transmitir conhecimento técnico, esta obra busca desenvolver no leitor uma mentalidade de responsabilidade, precisão e excelência.
+
+Em sistemas críticos, erros não são apenas falhas de software. Podem significar perdas financeiras, impactos legais, danos à reputação e prejuízos a milhares de pessoas.
+
+Por isso, formar um arquiteto de software não é apenas ensinar tecnologia. É formar profissionais conscientes do peso das decisões que tomam.
+
+## O que se espera do leitor
+
+Ao concluir este livro, espera-se que o leitor seja capaz de:
+
+- Compreender sistemas de forma holística, do hardware à nuvem
+- Projetar arquiteturas escaláveis, seguras e sustentáveis
+- Escrever código limpo, testável e evolutivo
+- Avaliar criticamente ferramentas, frameworks e modismos
+- Liderar tecnicamente equipes e projetos
+- Atuar com excelência em ambientes corporativos e financeiros
+
+Este não é um livro sobre atalhos.
+
+É um livro sobre fundamentos, disciplina, método e construção consistente.
+
+## Um convite à excelência
+
+Este livro é um convite a abandonar soluções improvisadas e adotar uma postura profissional, responsável e duradoura.
+
+Se você busca apenas aprender uma nova tecnologia rapidamente, este talvez não seja o material mais adequado.
+
+Mas se o seu objetivo é dominar a engenharia de software moderna, compreender profundamente o ecossistema .NET e construir sistemas que resistam ao tempo, às mudanças e à complexidade, esta obra foi escrita para você.

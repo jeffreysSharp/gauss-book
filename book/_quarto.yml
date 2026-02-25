@@ -12,12 +12,9 @@ book:
   subtitle: "Construindo Sistemas Financeiros de Alta Performance"
   author: "Jeffreys Sharp"
   date: today
-
   chapters:
     - index.qmd
-    - chapters/part1-vision/01-introducao.qmd
-    - chapters/part1-vision/00-sobre-o-autor.qmd
-
+    - chapters/part1-vision/01-purpose.qmd
 format:
   html:
     theme: cosmo
@@ -31,6 +28,7 @@ format:
     titlepage: false
     fontsize: 11pt
     linestretch: 1.18
+    number-sections: true
     highlight-style: github
     include-in-header:
       - preamble.tex

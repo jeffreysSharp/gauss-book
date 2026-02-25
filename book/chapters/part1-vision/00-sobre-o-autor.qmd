@@ -1,0 +1,73 @@
+# Sobre o Autor
+
+Jeferson Almeida é desenvolvedor de software e arquiteto de sistemas com mais de duas décadas de experiência na construção de aplicações web escaláveis, performáticas e orientadas a negócios críticos.
+
+Especialista em .NET, C#, arquitetura de software e sistemas distribuídos, atua há mais de dez anos no mercado financeiro e de investimentos, participando da criação e evolução de plataformas que operam com alto volume de dados, elevada disponibilidade e rigorosos requisitos de segurança, confiabilidade e auditoria.
+
+Ao longo de sua carreira, trabalhou em projetos para grandes empresas e marcas, desenvolvendo soluções em diferentes contextos — desde sistemas legados até arquiteturas modernas em nuvem — sempre orientado por princípios como SOLID, Clean Code, Domain-Driven Design (DDD) e engenharia de software sustentável.
+
+## Uma trajetória fora dos padrões
+
+Sua formação não seguiu caminhos tradicionais.
+
+A trajetória de Jeferson na tecnologia começou em 2003, motivada por uma curiosidade simples: aprender a inserir uma foto em um blog. Na época, trabalhava como assistente administrativo em um sindicato, após ter deixado a profissão de moto-boy, buscando uma carreira com mais perspectivas de crescimento.
+
+Sem acesso facilitado a cursos, plataformas ou conteúdos estruturados, iniciou seus estudos de forma autodidata, explorando fóruns, apostilas, comunidades técnicas e aprendendo, principalmente, por tentativa e erro.
+
+Durante mais de um ano, manteve uma rotina intensa: cumpria suas atividades profissionais durante o dia e dedicava praticamente todas as noites ao estudo de programação, design e desenvolvimento web, muitas vezes avançando pela madrugada.
+
+Utilizava materiais da Unicamp, comunidades como iMasters, conteúdos técnicos de referência e apostilas especializadas, conciliando responsabilidades profissionais com aprendizado contínuo, movido por disciplina, curiosidade e determinação.
+
+Nesse período, desenvolveu seus primeiros sites utilizando HTML e CSS no Bloco de Notas, aprofundando-se gradualmente em tecnologias mais avançadas, sempre buscando compreender não apenas “como fazer”, mas “por que funciona”.
+
+## Consolidação profissional
+
+Em 2005, conquistou sua primeira oportunidade formal como web designer na empresa GuiaMais, onde rapidamente se destacou e passou a assumir projetos de maior complexidade, desenvolvendo sistemas em ASP Clássico e consolidando sua base técnica.
+
+Posteriormente, atuou por quatro anos em projetos ligados às agências do grupo Roberto Justus, experiência que contribuiu significativamente para seu amadurecimento profissional, pessoal e criativo, integrando design, tecnologia e visão de negócios.
+
+Ao longo dos anos seguintes, construiu uma carreira sólida no desenvolvimento de soluções digitais, acumulando experiência em backend, frontend, bancos de dados, integração de sistemas, mensageria, cloud computing e automação de processos.
+
+Também vivenciou fases de grande crescimento financeiro, aprendendo, ao longo do tempo, que maturidade profissional vai além de resultados imediatos, envolvendo responsabilidade, planejamento e visão de longo prazo.
+
+## Atuação no setor financeiro
+
+Nos últimos dez anos, concentrou sua atuação no setor financeiro, participando de projetos de crédito, investimentos, plataformas transacionais e sistemas regulados.
+
+Nesse contexto, aprofundou seu domínio em:
+
+- Arquitetura distribuída
+- Performance
+- Segurança
+- Observabilidade
+- Governança técnica
+- Conformidade regulatória
+
+Atuou diretamente na construção de sistemas críticos, sujeitos a auditorias, requisitos legais e elevados níveis de disponibilidade.
+
+## Principais tecnologias
+
+Atualmente, possui sólida experiência em:
+
+- C#, .NET, ASP.NET, Entity Framework Core, Dapper  
+- APIs REST, arquitetura orientada a serviços e BFF  
+- Angular, React, TypeScript e aplicações SPA  
+- SQL Server, Oracle, MySQL, MongoDB, Redis  
+- Apache Kafka, RabbitMQ e mensageria  
+- Azure, CI/CD, automação e monitoramento  
+
+## Visão profissional
+
+Mais do que dominar ferramentas, Jeferson se dedica à formação de profissionais conscientes, críticos e tecnicamente responsáveis.
+
+Acredita que engenharia de software não se resume a escrever código, mas envolve método, ética, disciplina e compromisso com a qualidade.
+
+Esta obra reflete sua própria trajetória: construída sem atalhos, baseada em fundamentos sólidos, aprendizado contínuo e aplicação prática em ambientes reais.
+
+O objetivo deste livro é compartilhar não apenas conhecimento técnico, mas também a mentalidade necessária para construir sistemas duradouros, confiáveis e relevantes em um mercado cada vez mais exigente.
+
+## Contato profissional
+
+Mais informações sobre sua trajetória podem ser encontradas em:
+
+🔗 https://www.linkedin.com/in/jeffreys-sharp/

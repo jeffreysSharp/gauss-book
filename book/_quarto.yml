@@ -16,6 +16,7 @@ book:
   chapters:
     - index.qmd
     - chapters/part1-vision/01-introducao.qmd
+    - chapters/part1-vision/00-sobre-o-autor.qmd
 
 format:
   html:

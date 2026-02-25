@@ -32,8 +32,6 @@ Ao longo deste livro, o leitor não aprenderá apenas **o que usar**, mas **por 
 
 Cada conceito é contextualizado em cenários reais, especialmente em sistemas financeiros de alta volumetria, disponibilidade e impacto.
 
----
-
 ## Estrutura Híbrida: Teoria, Prática e Projeto
 
 Esta obra adota uma abordagem híbrida baseada em três pilares:
@@ -74,8 +72,6 @@ Em sistemas críticos, erros não são apenas falhas técnicas. Podem gerar:
 
 Formar um arquiteto é formar um guardião da qualidade.
 
----
-
 ## Objetivos da Formação
 
 Ao concluir este livro, o leitor será capaz de:
@@ -90,8 +86,6 @@ Ao concluir este livro, o leitor será capaz de:
 Este não é um livro sobre atalhos.
 
 É sobre método, disciplina e construção consistente.
-
----
 
 ## Sobre o Autor
 
@@ -116,8 +110,6 @@ Mais informações:
 
 🔗 https://www.linkedin.com/in/jeffreys-sharp/
 
----
-
 ## Como Usar Este Livro
 
 Este livro exige método.
@@ -130,8 +122,6 @@ Recomenda-se:
 - Prática constante
 - Revisões periódicas
 - Implementação real
-
----
 
 ## Perfis de Leitura
 
@@ -153,8 +143,6 @@ Recomenda-se:
 - Consulta dirigida
 - Leitura contínua
 
----
-
 ## Importância da Prática
 
 Este livro deve ser vivido.
@@ -168,8 +156,6 @@ Aprendizagem real ocorre quando o leitor:
 - Evolui
 
 Passividade é incompatível com excelência.
-
----
 
 ## Estrutura dos Capítulos
 
@@ -185,16 +171,12 @@ Cada capítulo segue o padrão:
 - Exercícios
 - Conexão futura
 
----
-
 ## Exercícios
 
 1. Explique o conceito de engenharia de software.
 2. Compare tutoriais e formação profunda.
 3. Descreva riscos de sistemas frágeis.
 4. Analise seu próprio método de estudo.
-
----
 
 ## Conexão com os Próximos Capítulos
 

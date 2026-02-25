@@ -5,6 +5,8 @@ project:
     - cover.tex
     - preamble.tex
 
+lang: pt-BR
+
 book:
   title: "Formação Definitiva do Arquiteto de Software .NET"
   subtitle: "Construindo Sistemas Financeiros de Alta Performance"
@@ -23,12 +25,10 @@ format:
     toc-depth: 3
 
   pdf:
+    pdf-engine: lualatex
     documentclass: book
-
-    # Desliga frontmatter automático (titlepage do LaTeX)
     titlepage: false
 
-    # Sumário e listas (PDF)
     toc: true
     toc-depth: 3
     toc-title: "Sumário"
@@ -38,8 +38,6 @@ format:
 
     lot: true
     lot-title: "Lista de Tabelas"
-
-    lang: pt-BR
 
     classoption:
       - oneside
@@ -53,11 +51,11 @@ format:
       - inner=2.5cm
       - outer=2.0cm
 
-    include-in-header: preamble.tex
-    include-before-body: cover.tex
+    include-in-header:
+      - preamble.tex
 
-    template-partials:
-      - partials/title.tex
+    include-before-body:
+      - cover.tex
 
   epub:
     toc: true

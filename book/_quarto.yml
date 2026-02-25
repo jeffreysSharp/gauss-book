@@ -31,8 +31,15 @@ format:
     # Sumário e listas (PDF)
     toc: true
     toc-depth: 3
+    toc-title: "Sumário"
+
     lof: true
+    lof-title: "Lista de Figuras"
+
     lot: true
+    lot-title: "Lista de Tabelas"
+
+    lang: pt-BR
 
     classoption:
       - oneside

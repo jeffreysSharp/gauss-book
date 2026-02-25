@@ -1,60 +1,82 @@
-% preamble.tex
+% preamble.tex — Editorial style (O'Reilly/Packt-inspired)
 \usepackage{graphicx}
 \usepackage{geometry}
-\usepackage{hyperref}
-\usepackage{bookmark}
-\usepackage{microtype}
 \usepackage{xcolor}
-
-\setlength{\parindent}{0pt}
-\setlength{\parskip}{6pt}
-
-% ========================
-% BRAND COLORS
-% ========================
-
-\definecolor{BrandBlue}{HTML}{0B1F33}
-\definecolor{BrandGraphite}{HTML}{0F172A}
-\definecolor{BrandWhite}{HTML}{F8FAFC}
-\definecolor{BrandGray}{HTML}{64748B}
+\usepackage{microtype}
+\usepackage{bookmark}
+\usepackage{hyperref}
+\usepackage{titlesec}
+\usepackage{setspace}
 
 % ========================
-% GLOBAL TEXT COLOR
+% Brand palette
 % ========================
+\definecolor{BrandBlue}{HTML}{0B1F33}      % Azul Profundo
+\definecolor{BrandGraphite}{HTML}{0F172A}  % Grafite
+\definecolor{BrandWhite}{HTML}{F8FAFC}     % Branco
+\definecolor{BrandGray}{HTML}{64748B}      % Cinza
 
+% ========================
+% Reading comfort (global)
+% ========================
+\microtypesetup{protrusion=true, expansion=true}
 \color{BrandGraphite}
 
-% ========================
-% SECTION COLORS
-% ========================
+% Parágrafos (livro longo: confortável e limpo)
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.25em}
 
-\usepackage{sectsty}
+% Evita "viúvas e órfãs" em texto longo
+\widowpenalty=10000
+\clubpenalty=10000
 
-\sectionfont{\color{BrandBlue}}
-\subsectionfont{\color{BrandBlue}}
-\subsubsectionfont{\color{BrandBlue}}
+% Melhor hifenização/justificação
+\tolerance=1200
+\emergencystretch=1.5em
 
 % ========================
-% HYPERLINK COLORS
+% Headings (Packt-like: clean, subtle color)
 % ========================
+\titleformat{\chapter}
+  {\normalfont\huge\bfseries\color{BrandBlue}}
+  {\thechapter}{0.8em}{}
 
-\hypersetup{
-  colorlinks=true,
-  linkcolor=BrandBlue,
-  urlcolor=BrandBlue,
-  citecolor=BrandBlue
+\titlespacing*{\chapter}{0pt}{-0.5em}{1.2em}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{BrandBlue}}
+  {\thesection}{0.8em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{BrandGraphite}}
+  {\thesubsection}{0.8em}{}
+
+\titleformat{\subsubsection}
+  {\normalfont\normalsize\bfseries\color{BrandGraphite}}
+  {\thesubsubsection}{0.8em}{}
+
+% ========================
+% Links (discretos, editoriais)
+% ========================
+% O template do Quarto/Pandoc costuma sobrescrever hypersetup depois.
+% Então aplicamos novamente no começo do documento.
+\AtBeginDocument{%
+  \hypersetup{
+    colorlinks=true,
+    linkcolor=BrandBlue,
+    urlcolor=BrandBlue,
+    citecolor=BrandBlue
+  }%
 }
 
 % ========================
-% REMOVE AUTO TITLE
+% Remove auto title block (se aparecer)
 % ========================
-
 \renewcommand{\maketitle}{}
 
 % ========================
-% INSERT COVER FIRST
+% Insert cover as first page
 % ========================
-
 \AtBeginDocument{%
   \begingroup
   \input{cover.tex}

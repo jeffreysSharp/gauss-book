@@ -28,6 +28,9 @@ format:
     pdf-engine: lualatex
     documentclass: book
     titlepage: false
+    fontsize: 11pt
+    linestretch: 1.18
+    highlight-style: github
     include-in-header:
       - preamble.tex
     toc: true

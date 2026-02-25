@@ -4,16 +4,59 @@
 \usepackage{hyperref}
 \usepackage{bookmark}
 \usepackage{microtype}
+\usepackage{xcolor}
 
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{6pt}
 
-% 1) Coloca a capa como a PRIMEIRA coisa do PDF
+% ========================
+% BRAND COLORS
+% ========================
+
+\definecolor{BrandBlue}{HTML}{0B1F33}
+\definecolor{BrandGraphite}{HTML}{0F172A}
+\definecolor{BrandWhite}{HTML}{F8FAFC}
+\definecolor{BrandGray}{HTML}{64748B}
+
+% ========================
+% GLOBAL TEXT COLOR
+% ========================
+
+\color{BrandGraphite}
+
+% ========================
+% SECTION COLORS
+% ========================
+
+\usepackage{sectsty}
+
+\sectionfont{\color{BrandBlue}}
+\subsectionfont{\color{BrandBlue}}
+\subsubsectionfont{\color{BrandBlue}}
+
+% ========================
+% HYPERLINK COLORS
+% ========================
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=BrandBlue,
+  urlcolor=BrandBlue,
+  citecolor=BrandBlue
+}
+
+% ========================
+% REMOVE AUTO TITLE
+% ========================
+
+\renewcommand{\maketitle}{}
+
+% ========================
+% INSERT COVER FIRST
+% ========================
+
 \AtBeginDocument{%
   \begingroup
   \input{cover.tex}
   \endgroup
 }
-
-% 2) Remove a página automática de título/autor/data
-\renewcommand{\maketitle}{}

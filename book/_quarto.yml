@@ -1,5 +1,9 @@
 project:
   type: book
+  resources:
+    - cover.png
+    - cover.tex
+    - preamble.tex
 
 book:
   title: "Formação Definitiva do Arquiteto de Software .NET"
@@ -20,13 +24,20 @@ format:
 
   pdf:
     documentclass: book
+
+    # Desliga frontmatter automático (titlepage do LaTeX)
     titlepage: false
+
+    # Sumário e listas (PDF)
     toc: true
     toc-depth: 3
     lof: true
     lot: true
 
-    # livro 6x9
+    classoption:
+      - oneside
+      - openany
+
     geometry:
       - paperwidth=6in
       - paperheight=9in
@@ -37,6 +48,9 @@ format:
 
     include-in-header: preamble.tex
     include-before-body: cover.tex
+
+    template-partials:
+      - partials/title.tex
 
   epub:
     toc: true

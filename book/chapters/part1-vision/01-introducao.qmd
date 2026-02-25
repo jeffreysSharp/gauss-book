@@ -56,8 +56,6 @@ Este não é um livro para leitura superficial.
 
 É uma obra de referência, construída para ser estudada, revisitada e aplicada ao longo da carreira.
 
----
-
 ## Mentalidade Profissional
 
 Mais do que transmitir conhecimento técnico, esta obra busca formar uma mentalidade baseada em:

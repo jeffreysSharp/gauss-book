@@ -1,0 +1,157 @@
+# GAUSS Manager: Projeto Central da Obra
+
+O GAUSS Manager é o projeto central desta obra.
+
+Ele não é um exemplo simplificado, nem um exercício acadêmico criado apenas para ilustrar conceitos isolados.
+
+Trata-se de uma plataforma concebida para refletir, com alto grau de fidelidade, os desafios reais enfrentados na construção de sistemas financeiros modernos.
+
+Seu nome é inspirado em Johann Carl Friedrich Gauss, matemático reconhecido pela precisão, rigor e profundidade de suas contribuições científicas. A escolha não é simbólica por acaso.
+
+Assim como a matemática exige exatidão, sistemas financeiros exigem precisão técnica, previsibilidade e responsabilidade.
+
+O GAUSS Manager nasce com esse compromisso.
+
+## Visão Geral do Sistema
+
+O GAUSS Manager é uma plataforma para gestão e contratação de crédito.
+
+Seu objetivo é permitir que instituições financeiras, fintechs ou plataformas digitais realizem:
+
+- Cadastro e gestão de produtos financeiros  
+- Configuração de taxas e políticas  
+- Simulação de crédito  
+- Análise de risco  
+- Processo de underwriting  
+- Formalização de contratos  
+- Desembolso  
+- Auditoria e rastreabilidade  
+
+Tudo isso dentro de uma arquitetura moderna, escalável e orientada a boas práticas de engenharia.
+
+O sistema foi concebido para simular ambientes regulados, onde decisões técnicas possuem impacto direto no negócio.
+
+## Domínios Principais
+
+O sistema será dividido em domínios bem definidos, respeitando princípios de modularidade e separação de responsabilidades.
+
+Entre os principais domínios estão:
+
+- **Catalog** — Cadastro de produtos financeiros, regras e parâmetros  
+- **Customer** — Gestão de clientes e dados cadastrais  
+- **Draft** — Criação de rascunhos de propostas  
+- **Simulation** — Cálculo e projeção de crédito  
+- **Risk & Underwriting** — Avaliação de risco e políticas de aprovação  
+- **Contracting** — Formalização e assinatura  
+- **Disbursement** — Processamento de pagamento  
+- **Audit & Compliance** — Registro e rastreabilidade  
+
+Cada domínio será desenvolvido progressivamente ao longo da obra.
+
+## Escopo Evolutivo
+
+O sistema não será construído de uma única vez.
+
+Ele evoluirá em versões incrementais:
+
+- **MVP 0.1** — Catálogo de produtos e API inicial  
+- **MVP 0.2** — Simulação e cálculo  
+- **MVP 0.3** — Rascunho e persistência  
+- **MVP 0.4** — Underwriting  
+- **MVP 0.5** — Contratação  
+- **MVP 1.0** — Fluxo completo de crédito  
+- Versões posteriores — Escalabilidade, mensageria, microserviços e cloud  
+
+Essa evolução permitirá compreender como sistemas reais crescem ao longo do tempo.
+
+## Características Técnicas
+
+O GAUSS Manager será construído utilizando tecnologias modernas e consolidadas no mercado, incluindo:
+
+- .NET (versão atual vigente à época da leitura)  
+- C#  
+- ASP.NET Core  
+- Entity Framework Core  
+- Banco de dados relacional e NoSQL  
+- Apache Kafka  
+- Docker  
+- Kubernetes  
+- Azure  
+- CI/CD  
+- Observabilidade  
+- Integração com Inteligência Artificial  
+
+A arquitetura evoluirá gradualmente, partindo de uma estrutura modular monolítica até atingir modelos distribuídos mais avançados.
+
+## Arquitetura Inicial
+
+A construção começará com uma abordagem modular monolítica, organizada por domínio, aplicando princípios como:
+
+- Separação de camadas  
+- Inversão de dependência  
+- Repository Pattern  
+- Unit of Work  
+- CQRS  
+- MediatR  
+- Testes automatizados  
+
+Posteriormente, o sistema poderá evoluir para:
+
+- Mensageria via Kafka  
+- BFFs especializados  
+- Serviços independentes  
+- Deploy em Kubernetes  
+- Observabilidade centralizada  
+
+Essa transição será gradual e fundamentada.
+
+## Versionamento e Engenharia Real
+
+Durante a construção do sistema:
+
+- Cada capítulo relevante gerará commits reais  
+- Decisões arquiteturais serão documentadas  
+- O histórico de evolução será preservado  
+- Branches e pipelines serão utilizados de forma profissional  
+
+O leitor poderá acompanhar a evolução completa do sistema e replicar o processo em seu próprio ambiente.
+
+## Complexidade Controlada
+
+Embora o sistema represente um cenário realista, sua complexidade será introduzida de forma controlada.
+
+Cada novo componente será incorporado apenas quando os fundamentos necessários já estiverem consolidados.
+
+A intenção não é impressionar pela complexidade, mas construir maturidade técnica progressiva.
+
+## Objetivo Formativo
+
+O GAUSS Manager não existe apenas para demonstrar tecnologia.
+
+Ele existe para:
+
+- Ensinar tomada de decisão  
+- Demonstrar trade-offs  
+- Evidenciar impactos arquiteturais  
+- Expor riscos e soluções  
+- Simular desafios corporativos  
+
+Ao final da obra, o leitor terá participado da construção de uma plataforma robusta, compreendendo tanto seus detalhes técnicos quanto suas implicações arquiteturais.
+
+## Mais do que um Projeto
+
+O GAUSS Manager é o fio condutor desta formação.
+
+Ele conecta:
+
+- Fundamentos  
+- Código  
+- Arquitetura  
+- Dados  
+- Cloud  
+- DevOps  
+- Inteligência Artificial  
+
+Ele transforma teoria em sistema.
+
+E sistema em aprendizado real.

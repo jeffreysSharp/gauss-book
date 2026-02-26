@@ -24,6 +24,7 @@ book:
       chapters:
         - chapters/part1-vision/01-purpose.qmd
         - chapters/part1-vision/02-paradox.qmd
+        - chapters/part1-vision/03-technical-decisions.qmd
 
 format:
   html:

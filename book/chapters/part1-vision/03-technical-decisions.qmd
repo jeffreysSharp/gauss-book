@@ -1,0 +1,148 @@
+# O Peso das Decisões Técnicas
+
+Toda decisão técnica possui consequência.
+
+Em projetos simples e de curto prazo, essas consequências podem parecer pequenas.  
+Em sistemas complexos e de longo ciclo de vida, elas se acumulam.
+
+Arquitetura não é apenas organização de código.  
+É a soma das decisões estruturais tomadas ao longo do tempo.
+
+Cada escolha — linguagem, padrão, modelo de dados, estratégia de integração, mecanismo de persistência — molda o comportamento futuro do sistema.
+
+## Decisões Não São Neutras
+
+Nenhuma decisão técnica é neutra.
+
+Escolher um framework implica aceitar seu modelo mental.  
+Escolher uma estratégia de comunicação implica aceitar seus trade-offs.  
+Escolher um banco de dados implica assumir limitações específicas.
+
+Decidir é assumir consequências.
+
+Em muitos contextos, decisões são tomadas com base em conveniência imediata:
+
+- Familiaridade da equipe  
+- Popularidade da ferramenta  
+- Pressão de prazo  
+- Tendência de mercado  
+
+Esses fatores são legítimos, mas não suficientes.
+
+Decisões estruturais exigem análise técnica profunda.
+
+## O Custo do Curto Prazo
+
+É comum ouvir que “depois a gente refatora”.
+
+Refatorações são parte natural da engenharia.  
+Mas decisões estruturais mal fundamentadas geram dívidas técnicas difíceis de eliminar.
+
+O problema não é errar.
+
+O problema é errar sem compreender o impacto do erro.
+
+Sistemas críticos não toleram improvisação constante.
+
+Quanto mais o sistema cresce, maior o custo de correção.
+
+## Impacto em Ambientes Críticos
+
+Em setores como o financeiro, bancário, de crédito e investimentos, decisões técnicas possuem impacto direto no negócio.
+
+Uma falha pode gerar:
+
+- Perdas financeiras  
+- Inconsistência de dados  
+- Violação regulatória  
+- Multas  
+- Danos à reputação  
+- Perda de confiança do cliente  
+
+Arquitetura, nesses contextos, deixa de ser uma questão estética.
+
+Ela se torna uma questão de responsabilidade.
+
+## A Ilusão da Simplicidade
+
+Muitas vezes, sistemas começam simples.
+
+Uma API.  
+Um banco de dados.  
+Algumas integrações.
+
+Mas sistemas raramente permanecem simples.
+
+Novas regras surgem.  
+Integrações aumentam.  
+Exigências regulatórias aparecem.  
+Escalabilidade se torna necessária.
+
+Decisões iniciais moldam a capacidade de adaptação futura.
+
+Arquiteturas frágeis limitam crescimento.
+
+Arquiteturas conscientes permitem evolução.
+
+## Responsabilidade do Arquiteto
+
+Ser arquiteto de software não é possuir um título.
+
+É assumir responsabilidade por decisões estruturais.
+
+É avaliar riscos.  
+É prever cenários.  
+É entender trade-offs.  
+É equilibrar prazo e sustentabilidade.
+
+Isso exige:
+
+- Base conceitual sólida  
+- Experiência prática  
+- Capacidade de análise sistêmica  
+- Disciplina metodológica  
+
+Arquitetura é compromisso de longo prazo.
+
+## Decidir é Projetar o Futuro
+
+Toda decisão técnica projeta um futuro possível.
+
+Algumas decisões ampliam possibilidades.  
+Outras restringem.
+
+O papel do engenheiro não é apenas entregar funcionalidades.
+
+É construir sistemas que suportem mudança.
+
+Sistemas que resistam ao tempo.
+
+Sistemas que não dependam de improvisação constante.
+
+## Maturidade Técnica
+
+Maturidade técnica não significa saber mais ferramentas.
+
+Significa compreender profundamente as consequências das escolhas feitas.
+
+Significa saber quando simplificar e quando estruturar.
+
+Significa reconhecer limites.
+
+Significa assumir responsabilidade.
+
+Este capítulo não pretende gerar medo.
+
+Pretende gerar consciência.
+
+A partir daqui, cada conceito apresentado ao longo do livro deve ser analisado sob essa perspectiva:
+
+Quais são as consequências?
+
+Quais são os trade-offs?
+
+Qual é o impacto de longo prazo?
+
+Engenharia começa quando decisões deixam de ser aleatórias.
+
+E passam a ser conscientes.

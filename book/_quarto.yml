@@ -16,6 +16,7 @@ book:
     - index.qmd
     - chapters/frontmatter/about-the-author.qmd
     - chapters/part1-vision/01-purpose.qmd
+    - chapters/frontmatter/how-to-use.qmd
 format:
   html:
     theme: cosmo

@@ -1,0 +1,135 @@
+# O Paradoxo da Engenharia de Software Moderna
+
+A área de desenvolvimento de software vive, há décadas, um paradoxo evidente.
+
+Nunca houve tanto conteúdo disponível.  
+Nunca houve tantas documentações, cursos, vídeos, comunidades, fóruns e plataformas de aprendizado.
+
+Ao mesmo tempo, nunca foi tão difícil formar profissionais realmente preparados para construir sistemas complexos, críticos e de alta responsabilidade.
+
+O acesso à informação aumentou exponencialmente.  
+A maturidade técnica média, no entanto, não evoluiu na mesma proporção.
+
+Essa contradição define o cenário atual da engenharia de software.
+
+## Abundância de Informação, Escassez de Formação
+
+Grande parte do material existente ensina a “fazer funcionar”.
+
+Ensina a configurar frameworks.  
+Ensina a consumir APIs.  
+Ensina a montar aplicações rapidamente.
+
+Mas raramente ensina a projetar sistemas.
+
+Pouco se discute sobre:
+
+- Modelagem de longo prazo  
+- Impacto arquitetural  
+- Trade-offs técnicos  
+- Custos de manutenção  
+- Riscos de acoplamento  
+- Sustentabilidade de código  
+
+O resultado é uma geração de profissionais altamente produtivos no curto prazo, mas frequentemente despreparados para lidar com complexidade estrutural.
+
+## Cultura da Velocidade
+
+O mercado moderno valoriza velocidade.
+
+Entrega rápida.  
+Deploy contínuo.  
+Feature constante.
+
+Essa pressão é legítima — negócios dependem de agilidade.
+
+O problema surge quando velocidade substitui fundamentos.
+
+Quando decisões estruturais são tomadas apenas com base em conveniência.  
+Quando ferramentas são escolhidas por popularidade, e não por adequação.  
+Quando arquitetura é tratada como detalhe secundário.
+
+Velocidade sem fundamento gera fragilidade.
+
+## Dependência de Ferramentas
+
+Outro aspecto desse paradoxo é a dependência excessiva de frameworks e abstrações.
+
+Ferramentas modernas são poderosas e aceleram desenvolvimento.
+
+Mas, quando utilizadas sem compreensão profunda de seus mecanismos internos, tornam-se caixas-pretas.
+
+Profissionais passam a depender de comportamentos que não compreendem plenamente.
+
+Quando o sistema falha, a solução deixa de ser análise técnica e passa a ser tentativa e erro.
+
+Isso não é engenharia.
+
+## Complexidade Crescente
+
+Os sistemas atuais não são simples.
+
+Aplicações modernas envolvem:
+
+- Distribuição geográfica  
+- Integração com múltiplos serviços  
+- Mensageria  
+- Cache  
+- Segurança avançada  
+- Regulamentações  
+- Observabilidade  
+- Escalabilidade automática  
+
+Essa complexidade exige mais do que conhecimento superficial.
+
+Exige visão sistêmica.
+
+## Consequências no Mercado
+
+O resultado desse cenário é perceptível:
+
+- Aplicações frágeis  
+- Arquiteturas improvisadas  
+- Código difícil de manter  
+- Alto acoplamento  
+- Baixa previsibilidade  
+- Dependência de pessoas específicas  
+
+Em setores sensíveis — como o financeiro, bancário, de investimentos e crédito — essas fragilidades não são apenas inconvenientes técnicos.
+
+Elas representam risco operacional.
+
+Risco financeiro.  
+Risco jurídico.  
+Risco reputacional.
+
+## A Necessidade de Engenharia Real
+
+Diante desse paradoxo, torna-se evidente a necessidade de resgatar princípios fundamentais.
+
+Engenharia não é apenas escrever código.
+
+Engenharia envolve:
+
+- Planejamento  
+- Estrutura  
+- Método  
+- Avaliação de risco  
+- Decisão consciente  
+- Responsabilidade  
+
+Este livro nasce como resposta a esse cenário.
+
+Ele propõe uma formação que vai além de ferramentas e frameworks.
+
+Propõe desenvolver pensamento arquitetural.
+
+Propõe formar profissionais capazes de compreender sistemas como um todo — e sustentá-los ao longo do tempo.
+
+Superar o paradoxo da engenharia moderna exige disciplina.
+
+Exige base.
+
+Exige maturidade.
+
+É isso que começamos a construir a partir daqui.

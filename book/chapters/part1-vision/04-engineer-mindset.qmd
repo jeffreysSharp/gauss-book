@@ -1,0 +1,152 @@
+# Mentalidade de Engenheiro
+
+Existe uma diferença clara entre programar e praticar engenharia de software.
+
+Programar é escrever código que funciona.  
+Engenharia é construir sistemas que continuam funcionando ao longo do tempo.
+
+Essa diferença não está na linguagem utilizada, no framework adotado ou na infraestrutura escolhida.
+
+Ela está na mentalidade.
+
+## Além da Implementação
+
+Um programador focado apenas na implementação tende a se concentrar no “agora”:
+
+- Resolver o problema imediato  
+- Entregar a funcionalidade solicitada  
+- Garantir que o código execute corretamente  
+
+Um engenheiro, por outro lado, considera:
+
+- Como essa solução evoluirá  
+- Como será mantida  
+- Como será testada  
+- Como impactará outras partes do sistema  
+- Como reagirá a mudanças futuras  
+
+Implementar é necessário.  
+Antecipar é essencial.
+
+## Pensamento Sistêmico
+
+Sistemas modernos são compostos por múltiplas camadas e integrações.
+
+Alterações locais raramente permanecem locais.
+
+Uma mudança em modelo de dados pode afetar APIs.  
+Uma mudança em API pode afetar integrações externas.  
+Uma mudança de infraestrutura pode impactar performance e segurança.
+
+Mentalidade de engenheiro significa enxergar o sistema como um organismo interconectado.
+
+Significa compreender que decisões isoladas quase nunca são isoladas.
+
+## Disciplina e Método
+
+Talento acelera.  
+Disciplina sustenta.
+
+Engenharia exige:
+
+- Organização  
+- Documentação  
+- Versionamento consistente  
+- Testes automatizados  
+- Revisão de código  
+- Padrões definidos  
+
+Não se trata de burocracia.
+
+Trata-se de previsibilidade.
+
+Método reduz risco.
+
+## Responsabilidade Técnica
+
+Em ambientes críticos, erros não são apenas bugs.
+
+Podem representar:
+
+- Perda de dados  
+- Falhas operacionais  
+- Inconsistências financeiras  
+- Exposição a riscos regulatórios  
+
+A mentalidade de engenheiro envolve responsabilidade.
+
+Não apenas sobre o código escrito, mas sobre o impacto das decisões tomadas.
+
+## Humildade Técnica
+
+Um dos pilares invisíveis da maturidade é reconhecer limites.
+
+Engenheiros maduros:
+
+- Questionam suas próprias decisões  
+- Avaliam alternativas  
+- Buscam revisão  
+- Evitam certezas absolutas  
+
+Complexidade exige cautela.
+
+A confiança deve ser sustentada por base sólida, não por intuição superficial.
+
+## Evolução Contínua
+
+Tecnologia evolui constantemente.
+
+Ferramentas mudam.  
+Plataformas são atualizadas.  
+Novos paradigmas surgem.
+
+Mentalidade de engenheiro não é apego a tecnologia.
+
+É apego a fundamentos.
+
+Quem domina princípios se adapta a ferramentas.
+
+Quem depende de ferramentas sofre com mudanças.
+
+## Longo Prazo
+
+Sistemas reais vivem por anos.
+
+Alguns por décadas.
+
+Código escrito hoje pode impactar equipes futuras.
+
+Mentalidade de engenheiro significa:
+
+- Escrever para manutenção  
+- Documentar decisões  
+- Facilitar entendimento  
+- Reduzir dependência individual  
+
+A pergunta central deixa de ser:
+
+“Funciona?”
+
+E passa a ser:
+
+“Continuará funcionando de forma sustentável?”
+
+## Engenharia é Postura
+
+Engenharia não é um cargo.  
+Não é um título formal.  
+Não é um nível hierárquico.
+
+É postura.
+
+É compromisso com qualidade.
+
+É responsabilidade com impacto.
+
+É decisão consciente.
+
+Ao longo deste livro, você será constantemente desafiado a adotar essa mentalidade.
+
+Porque ferramentas podem ser aprendidas rapidamente.
+
+Mentalidade exige construção.

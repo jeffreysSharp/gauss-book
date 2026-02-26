@@ -1,65 +1,53 @@
 % preamble.tex — Editorial style (O'Reilly/Packt-inspired)
+\usepackage{fontspec}
+
+% Texto (serif editorial, disponível no TeX Live)
+\setmainfont{TeX Gyre Pagella}
+
+% Títulos (sans limpa, disponível no TeX Live)
+\setsansfont{TeX Gyre Heros}
+
+% Código (mono garantida)
+\setmonofont{Latin Modern Mono}
 \usepackage{graphicx}
-\usepackage{geometry}
 \usepackage{xcolor}
 \usepackage{microtype}
-\usepackage{bookmark}
 \usepackage{hyperref}
+\usepackage{bookmark}
 \usepackage{titlesec}
+\usepackage{fancyhdr}
 \usepackage{setspace}
 
 % ========================
 % Brand palette
 % ========================
-\definecolor{BrandBlue}{HTML}{0B1F33}      % Azul Profundo
-\definecolor{BrandGraphite}{HTML}{0F172A}  % Grafite
-\definecolor{BrandWhite}{HTML}{F8FAFC}     % Branco
-\definecolor{BrandGray}{HTML}{64748B}      % Cinza
+\definecolor{BrandBlue}{HTML}{0B1F33}
+\definecolor{BrandGraphite}{HTML}{0F172A}
+\definecolor{BrandGray}{HTML}{64748B}
 
 % ========================
-% Reading comfort (global)
+% Reading comfort
 % ========================
 \microtypesetup{protrusion=true, expansion=true}
 \color{BrandGraphite}
 
-% Parágrafos (livro longo: confortável e limpo)
 \setlength{\parindent}{1.2em}
-\setlength{\parskip}{0.25em}
+\setlength{\parskip}{0.15em}
 
-% Evita "viúvas e órfãs" em texto longo
 \widowpenalty=10000
 \clubpenalty=10000
-
-% Melhor hifenização/justificação
 \tolerance=1200
 \emergencystretch=1.5em
 
-% ========================
-% Headings (Packt-like: clean, subtle color)
-% ========================
-\titleformat{\chapter}
-  {\normalfont\huge\bfseries\color{BrandBlue}}
-  {\thechapter}{0.8em}{}
+\usepackage{enumitem}
 
-\titlespacing*{\chapter}{0pt}{-0.5em}{1.2em}
-
-\titleformat{\section}
-  {\normalfont\Large\bfseries\color{BrandBlue}}
-  {\thesection}{0.8em}{}
-
-\titleformat{\subsection}
-  {\normalfont\large\bfseries\color{BrandGraphite}}
-  {\thesubsection}{0.8em}{}
-
-\titleformat{\subsubsection}
-  {\normalfont\normalsize\bfseries\color{BrandGraphite}}
-  {\thesubsubsection}{0.8em}{}
+% Listas mais "Packt/O'Reilly"
+\setlist[itemize]{topsep=2pt, partopsep=0pt, itemsep=2pt, parsep=0pt, leftmargin=1.6em}
+\setlist[enumerate]{topsep=2pt, partopsep=0pt, itemsep=2pt, parsep=0pt, leftmargin=1.8em}
 
 % ========================
-% Links (discretos, editoriais)
+% Links (discretos)
 % ========================
-% O template do Quarto/Pandoc costuma sobrescrever hypersetup depois.
-% Então aplicamos novamente no começo do documento.
 \AtBeginDocument{%
   \hypersetup{
     colorlinks=true,
@@ -70,23 +58,69 @@
 }
 
 % ========================
-% Remove auto title block (se aparecer)
+% Chapter/Section styling
 % ========================
-\renewcommand{\maketitle}{}
+
+% Remove "CAPÍTULO" label (Chapter name) to avoid "CAPÍTULO 2."
+\renewcommand{\chaptername}{}
+
+% Chapter title: clean, big, editorial
+\titleformat{\chapter}[display]
+  {\bfseries\color{BrandBlue}}
+  {\Huge\thechapter}
+  {0.6em}
+  {\Huge}
+  []
+
+\titlespacing*{\chapter}{0pt}{0pt}{24pt}
+
+\titleformat{\section}
+  {\normalfont\Large\bfseries\color{BrandBlue}}
+  {\thesection}{0.8em}{}
+
+\titleformat{\subsection}
+  {\normalfont\large\bfseries\color{BrandGraphite}}
+  {\thesubsection}{0.8em}{}
 
 % ========================
-% Insert cover as first page
+% Header / Footer (Packt-like)
 % ========================
-\AtBeginDocument{%
-  \begingroup
-  \input{cover.tex}
-  \endgroup
-}
+\pagestyle{fancy}
+\fancyhf{}
 
-% Fix empty PDF bookmarks
-\usepackage{bookmark}
+% chapter title on even/odd pages (book style)
+\fancyhead[LE]{\small\color{BrandGray}\nouppercase{\leftmark}}
+\fancyhead[RO]{\small\color{BrandGray}\nouppercase{\rightmark}}
+
+% page number
+\fancyfoot[C]{\small\color{BrandGray}\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\headrule}{\hbox to\headwidth{\color{BrandGray}\leaders\hrule height \headrulewidth\hfill}}
+\renewcommand{\footrulewidth}{0pt}
+
+% Ensure marks are set properly
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+% ========================
+% Bookmarks (Acrobat)
+% ========================
 \bookmarksetup{
   numbered,
   open,
   depth=3
+}
+
+% ========================
+% Cover must be first page
+% ========================
+\AtBeginDocument{%
+  \begingroup
+  \thispagestyle{empty}
+  \newgeometry{top=0mm,bottom=0mm,left=0mm,right=0mm}
+  \noindent\includegraphics[width=\paperwidth,height=\paperheight]{cover.png}
+  \clearpage
+  \restoregeometry
+  \endgroup
 }

@@ -12,6 +12,7 @@ book:
   subtitle: "Construindo Sistemas Financeiros de Alta Performance"
   author: "Jeffreys Sharp"
   date: today
+
   chapters:
     # Frontmatter (não numerados)
     - index.qmd
@@ -19,7 +20,8 @@ book:
     - chapters/frontmatter/how-to-use.qmd
     - chapters/frontmatter/methodology.qmd
     - chapters/frontmatter/gauss-manager.qmd
-# Parte I
+
+    # Parte I
     - part: "PARTE I — VISÃO, BASE E MENTALIDADE"
       chapters:
         - chapters/part1-vision/01-purpose.qmd
@@ -38,21 +40,25 @@ format:
   pdf:
     pdf-engine: lualatex
     documentclass: book
+    title-block: false
     titlepage: false
     fontsize: 11pt
-    linestretch: 1.18
+    linestretch: 1.22
+
     number-sections: true
     highlight-style: github
+
     include-in-header:
       - preamble.tex
+
     toc: true
     toc-depth: 3
     toc-title: "Sumário"
 
-    lof: true
+    lof: false
     lof-title: "Lista de Figuras"
 
-    lot: true
+    lot: false
     lot-title: "Lista de Tabelas"
 
     classoption:
@@ -66,7 +72,3 @@ format:
       - bottom=2.2cm
       - inner=2.5cm
       - outer=2.0cm
-
-  epub:
-    toc: true
-    toc-depth: 3
